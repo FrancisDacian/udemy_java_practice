@@ -8,7 +8,7 @@ public class Main {
         System.out.println(sumOdd(1, 100));
     }
 
-    private static boolean isOdd(int number) {
+    public static boolean isOdd(int number) {
 
         if(number < 0) {
             return false;
@@ -19,7 +19,7 @@ public class Main {
         }
     }
 
-    private static int sumOdd(int start, int end) {
+    public static int sumOdd(int start, int end) {
 
         int sum = 0;
 
