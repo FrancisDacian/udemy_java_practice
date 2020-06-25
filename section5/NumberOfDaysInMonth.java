@@ -24,7 +24,7 @@ public class Main {
         return false;
     }
 
-    public static int getDaysInMonths(int month, int year) {
+    public static int getDaysInMonth(int month, int year) {
 
         int days = 0;
 
